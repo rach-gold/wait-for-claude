@@ -10,7 +10,7 @@ Get a native macOS notification when your [Claude](https://claude.ai) usage rese
 ## Install
 
 ```sh
-curl -fsSL https://gist.githubusercontent.com/rach-gold/76cde6c6eafdfa91877b353cfd2c26e7/raw/wait_for_claude.sh -o wait_for_claude.sh && chmod +x wait_for_claude.sh && ./wait_for_claude.sh
+curl -fsSL https://raw.githubusercontent.com/rach-gold/wait-for-claude/main/wait_for_claude.sh -o wait_for_claude.sh && chmod +x wait_for_claude.sh && ./wait_for_claude.sh
 ```
 
 This installs a LaunchAgent that:
